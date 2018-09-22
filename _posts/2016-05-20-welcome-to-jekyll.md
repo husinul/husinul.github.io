@@ -1,26 +1,16 @@
 ---
 layout: page
-title:  "Welcome to Pudhina"
+title:  "IoT Protocols Introduction"
 subtitle: "A minimal Jekyll theme"
-date:   2016-05-20 21:21:21 +0530
-categories: ["general"]
+date:   2018-05-20 21:21:21 +0530
+categories: ["IoT"]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+1.Infrastructure(ex: 6LowPAN, IPv4/IPv6, RPL)
+2.Identification(ex: EPC, uCode, IPv6, URIs)
+3.Comms / Transport (ex: Wifi, Bluetooth, LPWAN)
+4.Discovery(ex: Physical Web, mDNS, DNS-SD)
+5.Data Protocols(ex: MQTT, CoAP, AMQP)
+6.Device Management(ex: TR-069, OMA-DM)
+7.Semantic(ex: JSON-LD, Web Thing Model)
+8.Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
