@@ -8,7 +8,7 @@ subtitle: An awesome person
 <br>
 
 ### SKILLS
-``` hi lillajs;j;ojl;k;k;kkjdasiohhfaouhaohaiohohfIA  ```  
+``` very passionate and most wanted  ```  
 
 ### PROJECTS
 **Title** - Description - Place <span style="float: right; ">Time span</span>  
