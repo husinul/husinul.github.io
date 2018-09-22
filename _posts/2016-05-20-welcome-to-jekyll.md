@@ -4,7 +4,7 @@ title:  "IoT Protocols Introduction"
 subtitle: "A minimal Jekyll theme"
 date:   2018-05-20 21:21:21 +0530
 categories: ["IoT"]
----
+------
 
 1. Infrastructure(ex: 6LowPAN, IPv4/IPv6, RPL)
 2. Identification(ex: EPC, uCode, IPv6, URIs)
