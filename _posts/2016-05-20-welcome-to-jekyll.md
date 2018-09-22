@@ -14,3 +14,9 @@ categories: ["IoT"]
 6. Device Management(ex: TR-069, OMA-DM)
 7. Semantic(ex: JSON-LD, Web Thing Model)
 8. Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
+
+#### IoT Data Protocols:
+1. CoAP (Constrained Applications)
+2. MQTT ( Message Queue Telemetry Transport)
+3. XMPP (Extensible Messaging And Presence Protocol)
+4. AMQP (Advanced Message Queuing Protocol)
