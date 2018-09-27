@@ -2,7 +2,7 @@
 layout: page
 title:  "IoT Protocols Introduction"
 subtitle: "A minimal Jekyll theme"
-date:   2018-05-20 21:21:21 +0530
+date:   2017-07-20 21:21:21 +0530
 categories: ["IoT"]
 ---
 
