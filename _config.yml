@@ -1,15 +1,15 @@
 # Site settings
-title: Husinul Sanub
+title: Break..Fix..Repeat
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  A simple, humble mind to explore the unknown
 
 baseurl: "/husinul.github.io" # the subpath of your site, e.g. /blog/
 url: "https://husinul.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Husinul Sanub
-  github:
-  linkedin: linkedin
+  github: https://github.com/husinul
+  linkedin: https://www.linkedin.com/in/husinul-sanub-658239106/
   email: husinulz93@gmail.com
 
 
