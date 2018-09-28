@@ -70,8 +70,11 @@ use **Radare** with “izz” command to search for non-ASCII characters i.e. Un
 
 Below it is provided an example of a preliminary analysis performed with binwalk and regarding Dlink DIR-412 Firmware
 
-first start with strings 
-![afterstrings](/assets/afterstrings.png)
+first start with strings
 
+![](/assets/afterstrings.png)
 
+and later move to hexdump
+
+!(/assets/hexdump.png)
 
