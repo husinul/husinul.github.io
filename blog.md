@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Break Fix Repeat
+subtitle: Break.. Fix.. Repeat
 ---
 
 <div>
