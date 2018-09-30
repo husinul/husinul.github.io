@@ -72,7 +72,7 @@ Below it is provided an example of a preliminary analysis performed with binwalk
 
 first start with strings
 
-![strings]({{site.url}}/assets/afterstrings.jpg)
+![strings]({{husinul.github.io}}/assets/afterstrings.jpg)
 
 and later move to hexdump
 
