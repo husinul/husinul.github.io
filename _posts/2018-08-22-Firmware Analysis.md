@@ -73,7 +73,7 @@ Below it is provided an example of a preliminary analysis performed with binwalk
 first start with strings
 
 
-![strings](/assets/img/afterstrings.jpg =100X250)
+![strings](/assets/img/afterstrings.jpg |width=100)
 
 and later move to hexdump
 
