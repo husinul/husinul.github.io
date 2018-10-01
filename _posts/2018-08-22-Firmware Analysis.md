@@ -72,10 +72,10 @@ Below it is provided an example of a preliminary analysis performed with binwalk
 
 first start with strings
 
-<img src="{{ '/assets/img/afterstrings.jpg' }}" id="about-img">
-![strings]({{baseurl}}/assets/afterstrings.jpg)
+
+![strings](/assets/afterstrings.jpg)
 
 and later move to hexdump
 
-![hexdump]({{site.url}}/assets/hexdump.png)
+![hexdump](/assets/hexdump.png)
 
