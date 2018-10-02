@@ -17,20 +17,20 @@ This blog is written to do a brief overview of Firmware analysis , one of the Io
 
 There are many community efforts dedicated to reverse engineering of firmwares and embedded devices. Each of these efforts have a specific goal and thus the tools produces by those efforts are influenced by their main goals. We try to summarize in a comprehensive list the most used and visible efforts to date.
 
-. **Binwalk**
+- **Binwalk**
 Binwalk is a firmware analysis tool designed to assist in the analysis, extraction, and reverse engineering of firmware images and other binary blobs.
 
-download it from here https://github.com/ReFirmLabs/binwalk
+download it from here [https://github.com/ReFirmLabs/binwalk]
 
-. **Firmware Mod Kit**
+- **Firmware Mod Kit**
 This kit is a collection of scripts and utilities to extract and rebuild linux based firmware images. This kit allows for easy deconstruction and reconstruction of firmware images for various embedded devices.
 
-download it from here https://github.com/rampageX/firmware-mod-kit
+download it from here [https://github.com/rampageX/firmware-mod-kit]
 
-. **Firmwalker** 
+- **Firmwalker** 
 A simple bash script for searching the extracted or mounted firmware file system.
 
-download it from here https://github.com/craigz28/firmwalker
+download it from here [https://github.com/craigz28/firmwalker]
 
 
 
