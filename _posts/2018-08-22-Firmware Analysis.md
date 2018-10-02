@@ -2,7 +2,7 @@
 layout: page
 title:  "Firmware Analysis"
 date:   2018-08-22 11:21:21 +0530
-categories: ["Firmware2"]
+categories: ["Firmware"]
 ---
 Intelligent dishwashers, smart factories, connected sensors and Wi-Fi fridges, these are only a few examples of everyday objects that now are connected to the Internet.
 All these "brainless" objects have been upgraded to become Internet of Things devices and now they’re changing our lifestyle communicating with us at anytime and in any place.
