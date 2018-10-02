@@ -20,4 +20,12 @@ then copy the firmware file system's contents on to the Qemu image and then laun
 However, there exists a much simpler alternative which is also prone to give you lesser issues while emulating firmware. 
 Let's have a look.
 
+**Tools Required**
+
+- Any Linux based Image or AttifyOS VM
+- Firmware Analysis Toolkit (https://github.com/attify/firmware-analysis-toolkit)
+- A firmware that you want to emulate (for ex - Netgear WNAP320 )
+
+**Setup Process**
+- 
  
