@@ -68,7 +68,7 @@ To download our pre-built binaries for all components, run the following script:
 
 **Emulating Firmware Image**
 
-In order to now emulate a firmware is run ./fat.py and specify the firmware name. In this case, we are running the WNAP320.zip firmware, so we will specify that.
+In order to emulate a firmware is run ./fat.py and specify the firmware name. In this case, we are running the WNAP320.zip firmware, so we will specify that.
 
 For the Brand, you can specify any brand, as that is used for purely database purposes.
 
