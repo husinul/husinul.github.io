@@ -32,16 +32,6 @@ A simple bash script for searching the extracted or mounted firmware file system
 
 download it from here https://github.com/craigz28/firmwalker
 
-**Other Tools**
-
-.**Signsrch**
-
-Tool for searching signatures inside files, extremely useful as help in reversing jobs like figuring or having an initial idea of what encryption/compression algorithm is used for a proprietary protocol or file.
-
-link : http://aluigi.altervista.org/mytoolz.htm
-
-. **Unzip**
-very useful tool to unpack the zip (zlib, gzip, deflate, etc.) data contained in any type of file included raw files, packets, zip archives, executables and everything else.
 
 
 **Preliminary Analysis**
@@ -65,17 +55,65 @@ use **Radare** with “izz” command to search for non-ASCII characters i.e. Un
 
 4. **Extract the Filesystem:** once the filesystem type has been identified (i.e. Squashfs, Cramfs, YAFFS2 and so on) the next steps are:
 
-. extract it from the firmware 
-. mount it in order to access the data inside. According to the filesystem type of your device, it is possible to use different tools like dd, binwalk or fmk to extract the fylesystem.
+- extract it from the firmware 
+- mount it in order to access the data inside. According to the filesystem type of your device, it is possible to use different tools like dd, binwalk or fmk to extract the fylesystem.
 
 Below it is provided an example of a preliminary analysis performed with binwalk and regarding Dlink DIR-412 Firmware
 
 first start with strings
+**strings -n 10 “file.bin”**
 
 
 ![strings](/assets/img/afterstrings.jpg |width=100)
 
 and later move to hexdump
 
+**hexdump -C -n 512 xyz.bin**
+
 ![hexdump](/assets/img/hexdump.png)
 
+Run Binwalk to extract the firmware
+![firmware](/assets/img/binwalk.png)
+
+the files in the extracted firmware is shown
+![out_firmware](/assets/img/binwalk_extracted.png)
+
+Once the file has been extracted run Firmwalker as shown below –
+![firmwalker](/assets/img/firmwalker.png)
+
+
+The Firwalker tool is basically a bash script capable of identifying following issues –
+
+- etc/shadow and etc/passwd
+- list out the etc/ssl directory
+- search for SSL related files such as .pem, .crt, etc.
+- search for configuration files
+- look for script files
+- search for other .bin files
+- look for keywords such as admin, password, remote, etc.
+- search for common web servers used on IoT devices
+- search for common binaries such as ssh, tftp, dropbear, etc.
+- search for URLs, email addresses, and IP addresses
+- Experimental support for making calls to the Shodan API using the Shodan CLI
+
+Below are the few things we can get through Firmwalker
+
+IP Address embedded into the firmware
+![firmwalker_ip](/assets/img/firmwalker_ip.png)
+
+Passwords
+![firmwaler_pass](/assets/img/firmwalker_telnet.png)
+
+going after Telnet
+![telnet](/assets/img/telnet.png)
+
+It seems it is related to telnet login. here we found username Alphanetworks,and the password is being loaded from the variable image_sign.
+![telnet_log](/assets/img/telnet2.png)
+
+checking passwd
+![passwd]](/assets/img/passwd..png)
+
+
+Now, we have the username and the password; we can easily login over the telnet connection. The worst part is all the devices running the firmware are vulnerable and can be compromised.
+
+Thus, Firmwalker is a great tool for scanning and finding the issues in an IoT Firmware
