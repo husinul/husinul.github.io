@@ -23,7 +23,7 @@ Let's have a look.
 **Tools Required**
 
 - Any Linux based Image or AttifyOS VM
-- Firmware Analysis Toolkit (https://github.com/attify/firmware-analysis-toolkit)
+- Firmware Analysis Toolkit [](https://github.com/attify/firmware-analysis-toolkit)
 - A firmware that you want to emulate (for ex - Netgear WNAP320 )
 
 **Setup Process**
