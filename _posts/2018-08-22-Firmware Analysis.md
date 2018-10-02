@@ -63,8 +63,7 @@ Below it is provided an example of a preliminary analysis performed with binwalk
 first start with strings
 **strings -n 10 “file.bin”**
 
-
-![strings](/assets/img/afterstrings.jpg |width=100)
+![strings](/assets/img/afterstrings.jpg)
 
 and later move to hexdump
 
@@ -110,8 +109,8 @@ going after Telnet
 It seems it is related to telnet login. here we found username Alphanetworks,and the password is being loaded from the variable image_sign.
 ![telnet_log](/assets/img/telnet2.png)
 
-checking passwd
-![passwd]](/assets/img/passwd.png)
+checking password
+![passwd](/assets/img/passwd.png)
 
 
 Now, we have the username and the password; we can easily login over the telnet connection. The worst part is all the devices running the firmware are vulnerable and can be compromised.
