@@ -2,7 +2,7 @@
 layout: page
 title:  "Getting Started to Firmware Emulation for IoT  Devices"
 date:   2018-08-27 08:46:21 +0530
-categories: ["analysis"]
+categories: ["Firmware"]
 ---
 
 In this Post, we will have a look at how we can perform Firmware Emulation of a given IoT device.
