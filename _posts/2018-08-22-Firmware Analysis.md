@@ -102,7 +102,7 @@ IP Address embedded into the firmware
 ![firmwalker_ip](/assets/img/firmwalker_ip.png)
 
 Passwords
-![firmwaler_pass](/assets/img/firmwalker_telnet.png)
+![firmwaler_pass](/assets/img/firmware_telnet.png)
 
 going after Telnet
 ![telnet](/assets/img/telnet.png)
@@ -111,7 +111,7 @@ It seems it is related to telnet login. here we found username Alphanetworks,and
 ![telnet_log](/assets/img/telnet2.png)
 
 checking passwd
-![passwd]](/assets/img/passwd..png)
+![passwd]](/assets/img/passwd.png)
 
 
 Now, we have the username and the password; we can easily login over the telnet connection. The worst part is all the devices running the firmware are vulnerable and can be compromised.
