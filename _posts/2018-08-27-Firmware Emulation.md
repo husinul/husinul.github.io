@@ -23,9 +23,75 @@ Let's have a look.
 **Tools Required**
 
 - Any Linux based Image or AttifyOS VM
-- Firmware Analysis Toolkit [](https://github.com/attify/firmware-analysis-toolkit)
+- firmadyne
 - A firmware that you want to emulate (for ex - Netgear WNAP320 )
 
 **Setup Process**
-- 
- 
+
+First, clone this repository recursively and install its dependencies.
+
+1. `sudo apt-get install busybox-static fakeroot git dmsetup kpartx netcat-openbsd nmap python-psycopg2 python3-psycopg2 snmp uml-utilities util-linux vlan`
+2. `git clone --recursive https://github.com/firmadyne/firmadyne.git`
+
+## Extractor
+
+The extractor depends on the [binwalk](https://github.com/devttys0/binwalk)
+tool, so we need to install that and its dependencies.
+
+1. `git clone https://github.com/devttys0/binwalk.git`
+2. `cd binwalk`
+2. `sudo ./deps.sh`
+3. `sudo python ./setup.py install`
+  * For Python 2.x, `sudo apt-get install python-lzma`
+4. `sudo -H pip install git+https://github.com/ahupp/python-magic`
+5. `sudo -H pip install git+https://github.com/sviehb/jefferson`.
+6. Optionally, instead of [upstream sasquatch](https://github.com/devttys0/sasquatch),
+our [sasquatch fork](https://github.com/firmadyne/sasquatch) can be used to
+prevent false positives by making errors fatal.
+
+## Database
+
+Next, install, set up, and configure the database.
+
+1. `sudo apt-get install postgresql`
+2. `sudo -u postgres createuser -P firmadyne`, with password `firmadyne`
+3. `sudo -u postgres createdb -O firmadyne firmware`
+4. `sudo -u postgres psql -d firmware < ./firmadyne/database/schema`
+
+## Binaries
+
+To download our pre-built binaries for all components, run the following script:
+
+* `cd ./firmadyne; ./download.sh`
+
+## Demo
+
+**Emulating Firmware Image**
+
+In order to now emulate a firmware is run ./fat.py and specify the firmware name. In this case, we are running the WNAP320.zip firmware, so we will specify that.
+
+For the Brand, you can specify any brand, as that is used for purely database purposes.
+
+Your output should be as shown below:
+
+![firmare2](/assets/img/firmadyne2.png)
+
+next
+![firmware3](/assets/img/firmadyne3.png)
+
+next
+![firmware4](/assets/img/firmadyne4.png)
+
+Once it has completed the initial setup process for the firmware, it will provide you with an IP address. In case the firmware runs a web server, you should be able to access the web interface, as well as interact with the firmware over SSH and perform additional network based exploitation.
+
+![firmware5](/assets/img/firmadyne5.png)
+
+Let's now open up Firefox and see if we are able to access the web interface.
+
+![firmware6](/assets/img/firmadyne6.png)
+
+Acess Via Default Credentials
+
+![firmware7](/assets/img/firmadyne7.png)
+
+**Congratulations!!!** - we have successfully emulated a firmware (which was originally meant for MIPS Big Endian architecture) and even have the web server from within the firmware accessible!
