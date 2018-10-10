@@ -86,5 +86,7 @@ root access to the router
 [!image11](/assets/img/37.png)
 
 [!image12](/assets/img/38.png)
+
 Pwned
+
 [!image13](/assets/img/39.png)
