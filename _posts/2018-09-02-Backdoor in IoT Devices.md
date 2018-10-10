@@ -77,7 +77,7 @@ using fat.py emulate the firmware
 
 finally netcat listener
 
-[!image9](/assets/img/34.png)
+![image9](/assets/img/34.png)
 
 root access to the router
 
