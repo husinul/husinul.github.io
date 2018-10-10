@@ -29,9 +29,9 @@ such as headers, sections, compressions used, etc.
 
 going through the extracted firmware and exploring the filesystem of your router like this
 
-[!image2](/assets/img/)
+[!image2](/assets/img/3.png)
 
-For making a malicious code start at system boot
+**For making a malicious code start at system boot**
 
 - find scripts which executed when device starts
 - focus on scripts which run as root
@@ -40,22 +40,22 @@ For making a malicious code start at system boot
 
 for our purpose /etc/init.d is good, inside /etc/init.d edit the following script
 
-```/etc/scripts/system.h```  by adding bindshell location on to it.
+```nano /etc/scripts/system.h```  by adding bindshell location on to it.
 
-[!image3](/assets/img/)
+[!image3](/assets/img/9.png)
 
 write a simple C backdoor and compile it using GCC for MIPS
 
 - for this we are using C backdoor bindshell written by Osanda Malith
  (https://github.com/OsandaMalith/TP-Link/blob/master/bindshell.c)
 
-[!image4](/assets/img/)
+[!image4](/assets/img/12.png)
 
 - for this purposes we are using buildroot-2015.11.1
 - copy  the bindshell to this location
 - Compile using the GCC cross compiler for the MIPS architecture.
 
-[!image5](/assets/img/)
+[!image5](/assets/img/15.png)
 
 After that we can place this shell inside the “etc/templates/” directory and change the startup script to run our shell after booting
 
@@ -65,21 +65,26 @@ After your modifications are done use this bash script inside the fmk directory 
 
 ```./build-firmware.sh Dlink_firmware.bin/ -nopad -min``` 
 
-[!image7](/assets/img/)
+[!image7](/assets/img/22.png)
 
 using fat.py emulate the firmware
 
-[!image8](/assets/img/)
+[!image8](/assets/img/26.png)
+
+[!image](/assets/img/30.png)
+
+[!image17](/assets/img/31.png)
 
 finally netcat listener
-[!image9](/assets/img/)
+
+[!image9](/assets/img/34.png)
 
 root access to the router
 
-[!image10](/assets/img/)
+[!image10](/assets/img/35.png)
 
-[!image11](/assets/img/)
+[!image11](/assets/img/37.png)
 
-[!image12](/assets/img/)
+[!image12](/assets/img/38.png)
 Pwned
-[!image13](/assets/img/)
+[!image13](/assets/img/39.png)
