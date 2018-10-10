@@ -25,7 +25,7 @@ Also make sure your firmware can be reversed and dumped using the FMK (Firmware 
 At first examine firmware using Binwalk you will get lots of useful information 
 such as headers, sections, compressions used, etc.
 
-[!image1](/assets/img/)
+[!image1](/assets/img/binwalk.png)
 
 going through the extracted firmware and exploring the filesystem of your router like this
 
