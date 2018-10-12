@@ -59,7 +59,7 @@ write a simple C backdoor and compile it using GCC for MIPS
 
 After that we can place this shell inside the “etc/templates/” directory and change the startup script to run our shell after booting
 
-![image6]](/assets/img/)
+
 
 After your modifications are done use this bash script inside the fmk directory and build the firmware
 
