@@ -12,4 +12,4 @@ For a curiousity i directed applicaiton traffic into Burp (After a Successfull S
 
 ![image1](/assets/img/others-order.png)
 
-It was observed that Order detail Users and most importantly details of profits per each order is also disclosed  
+ User order details are exposed and most importantly a critical business flow is exposed ie details of food delivery platform's commission per each order.  
