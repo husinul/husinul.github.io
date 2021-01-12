@@ -14,7 +14,7 @@ Out of curiosity I directed the application traffic into Burp (after a successfu
 
 - User’s order details (including the location) are exposed and most importantly a critical business flow is exposed i.e. details of **food delivery platform’s commission** per each order. 
 
-- Later I focused on IDOR, fortunately I got jackpot. I was able to get user details such as **session tokens, email, mobile number, address, location, wallet_balance etc **
+- Later I focused on IDOR, fortunately I got jackpot. I was able to get user details such as **session tokens, email, mobile number, address, location, wallet_balance etc**
 
 ![image1](/assets/img/user-info-3.png)
 
