@@ -16,4 +16,4 @@ For a curiousity i directed applicaiton traffic into Burp (After a Successfull S
 
 Later i focused on **IDOR**, fortunately i got jackpot. i was bale to get other user details and also their session tokens $$$$
 
-![image1](/assets/img/user-info-2.png)
+![image1](/assets/img/user-info-3.png)
