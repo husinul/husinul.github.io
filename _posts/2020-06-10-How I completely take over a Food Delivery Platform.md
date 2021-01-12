@@ -13,3 +13,7 @@ For a curiousity i directed applicaiton traffic into Burp (After a Successfull S
 ![image1](/assets/img/others-order.png)
 
  User order details (including the **location**) are exposed and most importantly a critical business flow is exposed ie details of food delivery platform's **commission** per each order.  
+
+Later i focused on **IDOR**, fortunately i got jackpot. i was bale to get other user details and also their session tokens $$$$
+
+![image1](/assets/img/user-info-1.png)
