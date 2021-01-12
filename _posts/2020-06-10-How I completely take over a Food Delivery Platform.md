@@ -12,8 +12,12 @@ For a curiousity i directed applicaiton traffic into Burp (After a Successfull S
 
 ![image1](/assets/img/others-order.png)
 
- User order details (including the **location**) are exposed and most importantly a critical business flow is exposed ie details of food delivery platform's **commission** per each order.  
+- User's order details (including the **location**) are exposed and most importantly a critical business flow is exposed ie details of food delivery platform's **commission** per each order.  
 
-Later i focused on **IDOR**, fortunately i got jackpot. i was able to get user details such as **session tokens, email, mobile number, address, location, wallet_balance $$$$**
+- Later i focused on **IDOR**, fortunately i got jackpot. i was able to get user details such as **session tokens, email, mobile number, address, location, wallet_balance $$$$**
 
 ![image1](/assets/img/user-info-3.png)
+
+After some more tests on API's, I have contacted the Application team with this findings, immediately they had fixed
+
+finally got some good bounty too $$.
