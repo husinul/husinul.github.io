@@ -17,5 +17,11 @@ It means that it can be accessed by any third-party apps installed on the same d
 
 ![image1](/assets/img/talabat.png)
 
-In file we can see that it opens attacker provided URLs. There is no validation on the url being passed to this activity and it can open any malicious url and present content to the user.
+In file we can see that it opens attacker provided URLs. There is no validation on the url being passed to this activity and it can open any malicious url and present content to the user. 
 
+##### Demonstrating Social Engineering Attack Using vulnerable WebViews
+
+![image1](/assets/img/blabla.png)
+
+
+![image1](/assets/img/capture_post.png)
