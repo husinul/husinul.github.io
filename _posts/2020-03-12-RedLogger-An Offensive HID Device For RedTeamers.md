@@ -19,5 +19,6 @@ The core of RedLogger is mainly an **Atmega 32u4** (commonly used in many Arduin
 ![image1](/assets/img/Redlogger2.jpg)
 
 However, in coming days, a new hardware is under R&D (i.e. **RedLogger X**). It replaces the Wi-Fi capabilities with a 2G baseband and 4G LTE. Which extends its wireless capabilities to (potentially) an unlimited working range.The increased range has made it possible to add mobile phone-like additional capabilities to the hacking tool. This includes GPS location tracking and acoustic surveillance – a command sent to RedLogger X will turn on its microphone and relay eavesdropped audio back to the attacker
-![image1](/assets/img/Redlogger2.jpg)
+
+![image1](/assets/img/Redlogger3.jpg)
 
