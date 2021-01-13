@@ -33,6 +33,6 @@ Final Product
 ![image1](/assets/img/Defcon_Kuwait.png)
 
 
- 
+ - We are planning to create this Project Under Open Hardware Segment.
  
  
