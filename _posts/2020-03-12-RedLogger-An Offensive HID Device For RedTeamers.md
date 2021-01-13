@@ -9,7 +9,9 @@ RedLogger was born from the need for cheap and dedicated hardware that could be 
 
 RedLogger v1.0 has in build wifi capability & remote keylogger, Payload generator.
 
-The core of RedLogger is mainly an **Atmega 32u4** (commonly used in many Arduino boards) and an ESP-12s (which provides the WiFi capabilities and is commonly used in IoT projects). 
+The core of RedLogger is mainly an **Atmega 32u4** (commonly used in many Arduino boards) and an **ESP-12s** (which provides the WiFi capabilities and is commonly used in IoT projects).
+
+![image1](/assets/img/RedLogger2.jpg)
 
 However, in coming days, a new hardware is under R&D (i.e. **RedLogger X**). It replaces the Wi-Fi capabilities with a 2G baseband and 4G LTE. Which extends its wireless capabilities to (potentially) an unlimited working range.The increased range has made it possible to add mobile phone-like additional capabilities to the hacking tool. This includes GPS location tracking and acoustic surveillance – a command sent to RedLogger X will turn on its microphone and relay eavesdropped audio back to the attacker
 
