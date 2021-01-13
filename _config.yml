@@ -3,7 +3,7 @@ title: Husinul Sanub
 description: >
   A simple, humble mind to explore the unknown
 
-baseurl: "/husinul.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://husinul.github.io" # the base hostname & protocol for your site
 
 author:
