@@ -22,3 +22,17 @@ However, in coming days, a new hardware is under R&D (i.e. **RedLogger X**). It 
 
 ![image1](/assets/img/Redlogger3.jpg)
 
+Final Product
+
+![image1](/assets/img/Redlogger4.jpg)
+
+#### Conference/Summit where Redlogger CFP Accepted 
+
+- **Defon Kuwait**
+
+![image1](/assets/img/Defcon_Kuwait.png)
+
+
+ 
+ 
+ 
