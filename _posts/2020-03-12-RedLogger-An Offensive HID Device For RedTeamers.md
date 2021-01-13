@@ -8,6 +8,7 @@ categories: ["Research"]
 RedLogger was born from the need for cheap and dedicated hardware that could be remotely controlled in order to conduct HID attacks.It is a cheap but reliable piece of hardware designed to fulfill Pentesters needs related to HID Attacks, during their engagements.
 
 RedLogger v1.0 has in build wifi capability with web app interface with **Remote keylogger, Live Payload executor**.
+
 ![image1](/assets/img/Red1ogger1.png)
 
 ![image1](/assets/img/Red1ogger1.1.png)
