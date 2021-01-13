@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Abusing Webviews in Android App"
-date:   2020-07-25 16:24:17 +0530
+date:   2020-09-04 21:08:07 +0530
 categories: ["Mobile Application"]
 ---
 Android developers frequently use WebViews to incorporate web features into their applications. Normally, when developers use WebViews the default settings are used. Unfortunately, some Application made a number of WebView changes that facilitated attacks against its users. Let’s start off by finding the WebView changes made by some of these Apps.
