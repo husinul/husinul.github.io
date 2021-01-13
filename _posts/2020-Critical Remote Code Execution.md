@@ -25,7 +25,7 @@ Immediately i reported this vulnerability into Saudi Cert.
 
 ![image1](/assets/img/saudi.png)
 
-Also got acknowledgement from Oman, India, Some banks from Indonesia & Mongolia
+Got acknowledgement from Oman & India Certs, Also from Some banks in Indonesia & Mongolia
 
 ![image1](/assets/img/oman.png)
 
