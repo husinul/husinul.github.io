@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title:  "RedLogger-An Offensive HID Device For RedTeamers"
 date:   2020-03-11 22:10:37 +0530
 categories: ["Research"]
