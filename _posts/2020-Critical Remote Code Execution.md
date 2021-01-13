@@ -14,3 +14,19 @@ out of curiosity, i also checked against some companies. Apart from usual i did 
 To achieve this i have used **Shodan**
 
 ![image1](/assets/img/sa.png)
+
+fortunately i was able to get some interesting infrastructures which are vulnerable to this RCE.
+
+![image1](/assets/img/rce.png)
+
+![image1](/assets/img/rce2.png)
+
+Immediately i reported this vulnerability into Saudi Cert.
+
+![image1](/assets/img/saudi.png)
+
+Also got acknowledgement from Oman, India, Some banks from Indonesia & Mongolia
+
+![image1](/assets/img/oman.png)
+
+![image1](/assets/img/india.png)
