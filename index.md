@@ -9,6 +9,6 @@ sitemap:
 <img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
 
 <div id="describe-text">
-	<p>Tech Enthusiast in IoT Security | Embedded | Hardware Hacking | ML </p>
+	<p>Tech Enthusiast in IoT Security | Android | Web | ML </p>
 	
 </div>
