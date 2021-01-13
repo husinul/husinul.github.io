@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello
-subtitle: My name is Husinul Sanub
+title: Husinul
+subtitle: My Hunt Diary
 sitemap:
   priority: 0.9
 ---
