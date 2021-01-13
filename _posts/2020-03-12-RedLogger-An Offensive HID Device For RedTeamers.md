@@ -9,9 +9,9 @@ RedLogger was born from the need for cheap and dedicated hardware that could be 
 
 RedLogger v1.0 has in build wifi capability with web app interface with **Remote keylogger, Live Payload executor**.
 
-![image1](/assets/img/Red1ogger1.png)
+![image1](/assets/img/Redlogger1.png)
 
-![image1](/assets/img/Red1ogger1.1.png)
+![image1](/assets/img/Redlogger1.1.png)
 
 
 The core of RedLogger is mainly an **Atmega 32u4** (commonly used in many Arduino boards) and an **ESP-12s** (which provides the WiFi capabilities and is commonly used in IoT projects).
