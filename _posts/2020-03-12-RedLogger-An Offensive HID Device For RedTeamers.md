@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "RedLogger-An Offensive HID Device For RedTeamers"
-date:   2020-01-09 13:21:45 +0530
+date:   2020-03-11 22:10:37 +0530
 categories: ["Research"]
 ---
 
