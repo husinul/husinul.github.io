@@ -9,11 +9,13 @@ Android developers frequently use WebViews to incorporate web features into thei
 ### Observation
 During My bug hunting days i was observed some 3rd party sdk's WebViewActivity is vulnerable to open redirect, XSS, Javascript Injection and it doesn't validate data pass to intent.
 
+It means that it can be accessed by any third-party apps installed on the same device. On the newest Androids it also could be exploited by Android Instant Apps directly from a web-browser
+
 ##### Open Redirection
 
+![image1](/assets/img/lime.png)
 
-
-It means that it can be accessed by any third-party apps installed on the same device. On the newest Androids it also could be exploited by Android Instant Apps directly from a web-browser.
+.
 
 In file we can see that it opens attacker provided URLs. There is no validation on the url being passed to this activity and it can open any malicious url and present content to the user.
 
