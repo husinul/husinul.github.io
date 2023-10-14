@@ -11,14 +11,16 @@ It was observed that Application ZKTeco BioTime 8.5 is vulnerable to Personal Id
 The directory files is accessible without authentication and corresponding folders unders the files directory are able to access without authentication.
 
 ##### POCs
-Application Internal Files is available through unauthenticated access.
+Application Internal Files is dislosed through unauthenticated access.
+
 ![image1](/assets/img/directory_traversal_files.png)
 
 Employee details disclosed
 
 ![image1](/assets/img/employee.png)
 
-![image1](/assets/img/employee_details_2.png)
+![image1](/assets/img/employee_details_2 .png)
+
 
 ![image1](/assets/img/medical-leave.png)
 
