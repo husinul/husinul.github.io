@@ -19,7 +19,7 @@ Employee details disclosed
 
 ![image1](/assets/img/employee.png)
 
-![image1](/assets/img/employee_details_2 .png)
+![image1](/assets/img/employee_details_2.png)
 
 
 ![image1](/assets/img/medical-leave.png)
