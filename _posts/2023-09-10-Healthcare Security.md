@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Improper Access Control inl ZKTeco BioTime 8.5"
+title:  "Improper Access Control in ZKTeco BioTime 8.5"
 date:   2023-09-10 15:08:07 +0530
 categories: ["Research"]
 ---
