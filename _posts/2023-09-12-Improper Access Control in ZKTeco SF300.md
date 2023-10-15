@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title:  "Improper Access Control in ZKTeco SF300 (ZLM60) "
+title:  "Improper Access Control in ZKTeco SF300 (ZLM60)"
 date:   2023-09-10 15:08:07 +0530
 categories: ["Research"]
 ---
