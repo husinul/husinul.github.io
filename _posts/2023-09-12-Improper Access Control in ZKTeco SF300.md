@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title:  "Improper Access Control in ZKTeco SF300 (ZLM60)"
