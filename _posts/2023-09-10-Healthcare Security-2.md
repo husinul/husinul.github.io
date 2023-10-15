@@ -12,18 +12,9 @@ It was observed that the backup directory and backup file is accessible without 
 
 
 ##### POCs
-Application Internal Files is dislosed through unauthenticated access.
+Application's backup Files is dislosed through unauthenticated access.
 
-![image1](/assets/img/directory_traversal_files.png)
-
-Employee details disclosed
-
-![image1](/assets/img/employee.png)
-
-![image1](/assets/img/employee_details_2.png)
-
-
-![image1](/assets/img/medical-leave.png)
+![image1](/assets/img/backup.png)
 
 
 ##### Risk
